@@ -2,43 +2,28 @@
 
 return array(
 
-	'metadata' => 'Metadata del Sito',
-	'metadata_desc' => 'Gestisci i dati del tuo sito',
+	'metadata' => 'Impostazioni',
 
-	'comment_settings' => 'Commenti',
-	'theme_settings' => 'Aspetto',
+	'sitename' => 'Nome sito',
+	'sitename_explain' => 'Il nome del tuo sito.',
+	'sitedescription' => 'Descrizione sito',
+	'sitedescription_explain' => 'Un corto paragrafo per descrivere il tuo sito.',
+	'homepage' => 'Home Page',
+	'homepage_explain' => 'La tua pagina principale corrente.',
+	'postspage' => 'Pagina Articoli',
+	'postspage_explain' => 'La tua pagina che mostra gli articoli.',
+	'posts_per_page' => 'Articoli per pagina',
+	'posts_per_page_explain' => 'Il numero degli articoli da mostrare in ogni pagina.',
+	'current_theme' => 'Tema corrente',
+	'current_theme_explain' => 'Il tuo tema corrtent.',
+	'auto_publish_comments' => 'Pubblica automaticamente i commenti',
+	'twitter' => 'Twitter',
+	'twitter_explain' => 'Il tuo account twitter. Mostrato come @<span id="output"></span>.',
+	'save' => 'Salva modifiche',
 
-	// form fields
-	'sitename' => 'Nome del sito',
-	'sitename_explain' => '',
-	'sitename_missing' => 'Il tuo sito ha bisogno di uno nome!',
-
-	'sitedescription' => 'Descrizione del sito',
-	'sitedescription_explain' => '',
-	'sitedescription_missing' => 'Il tuo sito ha bisogno di una descrizione!',
-
-	'homepage' => 'Homepage',
-	'homepage_explain' => '',
-
-	'postspage' => 'Pagina post',
-	'postspage_explain' => '',
-
-	'posts_per_page' => 'Posts per pagina',
-	'posts_per_page_explain' => '',
-
-	'auto_publish_comments' => 'Pubblica automaticamente commenti',
-	'auto_publish_comments_explain' => '',
-
-	'comment_notifications' => 'Notifica Email per i nuovi commenti',
-	'comment_notifications_explain' => '',
-
-	'comment_moderation_keys' => 'Parole chiave per lo Spam',
-	'comment_moderation_keys_explain' => 'Lista nera delle parole spam separate da una virgola. I Commenti con queste parole verranno automaticamente impostati come SPAM.',
-
-	'current_theme' => 'Tema Attuale',
-	'current_theme_explain' => '',
-
-	// messages
-	'updated' => 'Metadata aggiornati',
+	'missing_sitename' => 'Ti serve un nome del sito',
+	'missing_sitedescription' => 'Ti serve una descrizione del sito',
+	'missing_theme' => 'Ti serve un tema',
+	'meta_success_updated' => 'Le tue impostazioni sono state aggiornate'
 
 );

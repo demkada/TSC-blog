@@ -10,7 +10,7 @@ function numeral($number, $hideIfOne = false) {
 	if($hideIfOne === true and $number == 1) {
 		return '';
 	}
-	
+
 	$test = abs($number) % 10;
 	$ext = ((abs($number) % 100 < 21 and abs($number) % 100 > 4) ? 'th' : (($test < 4) ? ($test < 3) ? ($test < 2) ? ($test < 1) ? 'th' : 'st' : 'nd' : 'rd' : 'th'));
 	return $number . $ext;
@@ -60,7 +60,7 @@ function relative_time($date) {
 }
 
 function twitter_account() {
-	return site_meta('twitter', 'idiot');
+	//return site_meta('twitter', 'demkada');
 }
 
 function twitter_url() {

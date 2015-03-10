@@ -3,33 +3,33 @@
 return array(
 
 	'comments' => 'Kommentare',
-	'nocomments_desc' => 'Noch keine Kommentare.',
+	'nocomments_desc' => 'Keine Kommentare vorhanden.',
 	'editing_comment' => 'Kommentar bearbeiten',
-	'view_comment' => 'Kommentar öffnen',
+	'view_comment' => 'Kommentar anzeigen',
 
 	// form fields
 	'name' => 'Name',
 	'name_explain' => 'Name des Autors',
-	'name_missing' => 'Bitt einen Namen eingeben',
+	'name_missing' => 'Bitte einen Namen eingeben',
 
-	'email' => 'Email Adresse',
-	'email_explain' => 'Email des Autors',
-	'email_missing' => 'Bitte eine valide Email Adresse eingeben', // frontend message (appears on your site!)
+	'email' => 'E-Mail Adresse',
+	'email_explain' => 'E-Mail Adresse des Autors',
+	'email_missing' => 'Bitte eine gültige E-Mail Adresse eingeben', // frontend message (appears on your site!)
 
-	'text' => 'Kommentieren',
+	'text' => 'Kommentar',
 	'text_explain' => '',
-	'text_missing' => 'Bitte Kommentar-Text eingeben', // frontend message (appears on your site!)
+	'text_missing' => 'Bitte den Text für den Kommentar eingeben', // frontend message (appears on your site!)
 
 	'status' => 'Status',
 	'status_explain' => '',
 
 	// messages
 	'created' => 'Dein Kommentar wurde hinzugefügt', // frontend message (appears on your site!)
-	'updated' => 'Dein Kommentar wurde geändert',
+	'updated' => 'Dein Kommentar wurde aktualisiert',
 	'deleted' => 'Dein Kommentar wurde gelöscht',
 
 	// email notification
-	'notify_subject' => 'Ein neuer Kommentar wurde hinzugefügt',
+	'notify_subject' => 'Ein neuer Kommentar wurde erstellt',
 	'nofity_heading' => 'Ein neuer Kommentar wurde auf deiner Seite hinzugefügt.'
 
 );

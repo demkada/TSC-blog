@@ -3,45 +3,72 @@
 return array(
 
 	'posts' => 'Articoli',
+	'create_post' => 'Crea un nuovo articolo',
+	'created' => 'Creato',
+	'create' => 'Crea',
+	'by' => 'di',
+	'noposts' => 'Non ci sono articoli ancora. Perché non scriverne uno nuovo?',
+	'return_posts' => 'Ritorna agli articoli',
 
-	'create_post' => 'Crea un nuovo Articolo',
-	'noposts_desc' => 'Non hai nessun Articolo!',
+	'add_post' => 'Aggiungi un articolo',
+	'post' => 'Articolo',
+	'customise' => 'Personalizza',
+	'customise_explain' => 'Qui, &egrave; possibile personalizzare i tuoi articoli. Questa sezione &egrave; facoltativa.',
+	'custom_fields' => 'Campi Personalizzati',
+	'custom_fields_explain' => 'Crea campi personalizzati qui.',
+	'create_custom_field' => 'Crea un campo personalizzato',
+	'comments' => 'Commenti',
+	'comments_explain' => 'Qui &egrave; possibile moderare i commenti.',
+	'no_comments' => 'Nessun commento.',
+	'edit_comment' => 'Modifica commento',
+	'edit_comment_explain' => 'Aggiorna il testo del commento.',
 
-	// form fields
-	'title' => 'Titolo Articolo',
-	'title_explain' => '',
-	'title_missing' => 'Inserisci un titolo',
+	'publish' => 'Pubblica',
+	'edit' => 'Modifica',
+	'delete' => 'Cancella',
+	'save' => 'Salva',
+	'label' => 'Etichetta',
+	'key' => 'Chiave',
+	'editing' => 'Modifica',
+	'editing_explain' => 'Alcuni link utili.',
+	'view_post' => 'Vedi questo post sul tuo sito',
 
-	'content' => 'Contenuto del tuo articolo',
-	'content_explain' => 'Scrivi...',
+	'draft' => 'Bozza',
+	'archived' => 'Archiviato',
+	'published' => 'Pubblicato',
+	'pending' => 'In attesa',
+	'spam' => 'Spam',
+	'update' => 'Aggiorna',
+	'close' => 'Chiudi',
 
+	'custom_field' => 'Campo personalizzato',
+	'custom_field_explain' => 'Inserisci l\'etichetta e la chiave per il campo.',
+	'missing_label' => 'Inserisci un\'etichetta di campo',
+	'missing_key' => 'Inserisci un campo chiave',
+
+	'title' => 'Titolo',
+	'title_explain' => 'Il titolo del tuo articolo.',
 	'slug' => 'Slug',
-	'slug_explain' => 'URI Slug per identificare la tua pagina, dovrebbe contenere solo caratteri ASCII',
-	'slug_missing' => 'Inserisci un URI Slug, dovrebbe contenere solo caratteri ASCII',
-	'slug_duplicate' => 'Questo Slug0 esiste già',
-	'slug_invalid' => 'Lo Slug deve contenere delle lettere',
-
+	'slug_explain' => 'Lo slug del tuo articolo (<code id="output">slug</code>).',
 	'description' => 'Descrizione',
-	'description_explain' => '',
-
+	'description_explain' => 'Un breve riassunto del tuo post. Utilizzato nel feed RSS.',
+	'content' => 'Contenuto',
+	'content_explain' => 'Contenuto principale del tuo post. Ama la buona dose di HTML valido.',
 	'status' => 'Stato',
-	'status_explain' => '',
-
-	'category' => 'Categoria',
-	'category_explain' => '',
-
+	'status_explain' => 'Stati: visibile (pubblicato), in attesa (bozza), o nascosto (archiviato).',
 	'allow_comments' => 'Permetti Commenti',
-	'allow_comments_explain' => '',
+	'allow_comments_explain' => 'Questo consentir&agrave; agli utenti di commentare i tuoi messaggi.',
+	'custom_css' => 'CSS Personalizzato',
+	'custom_css_explain' => 'CSS Personalizzato. Sar&agrave; inserito in un tag <code>&lt;style&gt;</code>.',
+	'custom_js' => 'JS Personalizzato',
+	'custom_js_explain' => 'Javascript Personalizzato. Sar&agrave; inserito in un tag <code>&lt;script&gt;</code>.',
 
-	'custom_css' => 'CSS personalizzato',
-	'custom_css_explain' => '',
-
-	'custom_js' => 'JS personalizzato',
-	'custom_js_explain' => '',
-
-	// messages
-	'updated' => 'L\'articolo è stato aggiornato',
-	'created' => 'L\'articolo è stato creato',
-	'deleted' => 'A\'articolo è stato eliminato'
+	'missing_title' => 'Inserisci un titolo',
+	'missing_description' => 'Inserisci una descrizione',
+	'missing_html' => 'Inserisci il tuo html',
+	'duplicate_slug' => 'Esistono gi&agrave; degli articoli con questo slug, per favore inseriscine un\'altro.',
+	'post_success_created' => 'Il tuo post è stata aggiunto',
+	'post_success_updated' => 'Il tuo post è stato aggiornato.',
+	'post_success_deleted' => 'Il tuo post è stato cancellato'
 
 );
